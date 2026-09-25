@@ -16,14 +16,14 @@ int main() {
 	if (x <= -2R1)
 		y = 0;
 	else
-		if (-2R1 < x && x <= 0)
+		if (-2*R1 < x && x <= 0)
 			y = R + sqrt(pow(x, 2) + pow(R1, 2));
 		else
-			if (0 < x && x <= 2R2)
+			if (0 < x && x <= 2*R2)
 				y = R - sqrt(pow(x, 2) - pow(R2, 2));
 			else
-				if (2R2 < x && x <= 6)
-					y = (2R2 - x) / (6 - 2 * R2);
+				if (2*R2 < x && x <= 6)
+					y = (2*R2 - x) / (6 - 2 * R2);
 				else
 					y = -1;
 
